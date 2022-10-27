@@ -14,13 +14,12 @@ body{
 .container{
     width: 1000px;
     margin: 0 auto;
-    background-color: brown;
 }
 
 /* Header */
 h1{
     font-size: 35px;
-    color: rgb(255, 0, 64);
+    color: rgb(243, 14, 72);
     margin: 40px;
 }
 .sottotitolo, h1{
@@ -39,10 +38,34 @@ h1{
     margin: 0 -10px;
 }
 
-.cards{
+.cards, .box{
     float: left;
+    
+}
+
+.cards{
     width: calc((100% / 3) - 20px);
-    height: 100px;
     margin: 10px;
     background-color: black;
+}
+
+/* caratterestiche cards */
+.picture{
+    height: 100px;
+}
+
+.generalità{
+    padding-top: 10px;
+}
+
+.dati{
+    color: white;
+    font-style: normal;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.email{
+    color: cornflowerblue;
+    padding-left: 10px;
 }
