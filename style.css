@@ -8,24 +8,41 @@
 
 /* Generics */
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-h1{
-
+    font-family: 'Fredoka', sans-serif;
 }
 
 .container{
     width: 1000px;
-    margin: 20px auto;S 
+    margin: 0 auto;
+    background-color: brown;
 }
 
 /* Header */
-.sottotitolo{
-
+h1{
+    font-size: 35px;
+    color: rgb(255, 0, 64);
+    margin: 40px;
+}
+.sottotitolo, h1{
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 /* Main */
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.riga{
+    margin: 0 -10px;
+}
+
 .cards{
-    
+    float: left;
+    width: calc((100% / 3) - 20px);
+    height: 100px;
+    margin: 10px;
+    background-color: black;
 }
